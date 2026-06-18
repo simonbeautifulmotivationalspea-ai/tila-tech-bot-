@@ -1,0 +1,30 @@
+{
+  "name": "tila-tech-bot",
+  "version": "1.0.0",
+  "description": "Advanced Telegram Bot with moderation, security, utilities, games, and premium features",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo test",
+    "logs": "tail -f logs/bot.log",
+    "stop": "pkill -f node"
+  },
+  "keywords": ["telegram", "bot", "ai", "games"],
+  "author": "Simon",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.63.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
